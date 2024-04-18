@@ -1,0 +1,256 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.resume {
+    background-color:#A79277;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+.am{
+    background-color:#D1BB9E;
+   
+}
+p{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+        
+    margin-inline: 30px;
+     color:black;
+    
+}
+.education{
+   background-color: #EAD8C0;
+   border:#A79277 2px solid;
+
+}
+.contact{
+    width: 70px;
+    height: 70px;
+    margin: 25px;
+}
+
+header h1{
+    color: #333; 
+}
+
+header p {
+    color: #666;
+}
+
+.contact-info h2, .education h2, .experience h2, .skills h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-info ul, .education p, .experience h3, .skills ul {
+    margin-left: 20px;
+}
+
+.contact-info li, .education p, .experience ul, .skills li {
+    color: #666;
+}
+.handsome{
+        font-size: 25px;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: -460px;
+    
+}
+.photo01{
+    width: 8cm;
+    height:9cm;
+    margin-bottom: 10px;
+}
+#s1{
+    width: 4cm;
+    height:6cm;
+    border-radius:10% 10% 100% 100%;
+    margin: 37px;
+    
+}
+#s2{
+    width: 5cm;
+    height:5cm;
+    margin: 37px;
+}
+#s3{
+    width: 5cm;
+    height:5cm;
+    border-radius:50%;
+    margin: 37px;
+}
+#s4{
+    width: 5cm;
+    height:5cm;
+    border-radius:50%;
+    margin: 37px;
+}
+.school{
+    display: flex;
+}
+.work{
+    font-family: 微軟正黑體;
+    font-size: large;
+}
+#px{
+    width: 5cm;
+    height:5cm;
+    margin: 37px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    font-size: large;
+    font-family: 微軟正黑體;
+}
+.clear{
+    clear: both;
+}
+.games{
+    font-size: larger;
+}
+.life{
+    font-family: 微軟正黑體;
+    font-size:large;
+}
+.x{
+    width: 8cm;
+    height:9cm;
+    margin: 37px;
+}
+.ability {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.sk {
+    padding-left: 3%;
+}
+.skill {
+    background-color: #EAD8C0;;
+    border: 2px solid #EAD8C0;
+    
+}
+.skill1 {
+    height: 400px;
+    width: 48%;
+    float: left;
+    }
+    .progressbar li {
+        list-style: none;
+        position: relative;
+        margin: 48px 0;
+        font-size: 18px;
+    
+    }
+    
+    .progressbar li::before,
+    .progressbar li::after {
+        content: "";
+        display: block;
+        height: 16px;
+        width: 100%;
+        background-color: #EAD8C0;
+        position: absolute;
+        bottom: -28px;
+        border-radius: 8px;
+    }
+    
+    .progressbar li::before {
+        box-shadow: 0 0 6px #B7B5E4;
+    }
+    
+    .progressbar li::after {
+        background-color: #A79277;
+    }
+    
+    .progressbar li::after {
+        animation-duration: 4.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite
+    }
+    
+    .Python::after {
+        animation-name: Python;
+    }
+    
+    .HTML::after {
+        animation-name: HTML;
+    }
+    
+    .CSS::after {
+        animation-name: CSS;
+    }
+    
+    .JAVA::after {
+        animation-name: JAVA;
+    }
+    @keyframes Python {
+        from {
+            width: 0%;
+        }
+    
+        to {
+            width: 100%
+        }
+    }
+    
+    @keyframes HTML {
+        from {
+            width: 0%;
+        }
+    
+        to {
+            width: 50%
+        }
+    }
+    
+    @keyframes CSS {
+        from {
+            width: 0%;
+        }
+    
+        to {
+            width: 50%
+        }
+    }
+    
+    @keyframes JAVA {
+        from {
+            width: 0%;
+        }
+    
+        to {
+            width: 45%
+        }
+    }
+.experience{
+    background: #FFF2E1;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.experience1{
+   background-color:#A79277 ;
+   padding-left: 10%;
+   padding-right: 15%;
+    
+}
+h2{
+     margin: 0px;
+     border: #A79277;
+}
+.skills{
+    margin: 0px;
+    background-color: #EAD8C0;;
+}
